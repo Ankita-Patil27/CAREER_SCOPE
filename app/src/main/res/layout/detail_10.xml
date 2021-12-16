@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    tools:context="com.example.anki.career_scope.detail_10">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="409dp"
+        android:layout_height="73dp"
+        android:background="#32ff04"
+        android:ems="1"
+        android:text="AFTER 10"
+        android:textAlignment="center"
+        android:textColor="#0e0e0e"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.545"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/intermedate"
+        android:layout_width="292dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/bullet_button"
+        android:text="Intermediate"
+        android:textAlignment="gravity"
+        android:textColor="#f7f9f6"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.243" />
+
+    <TextView
+        android:id="@+id/polytechnic"
+        android:layout_width="287dp"
+        android:layout_height="60dp"
+        android:drawableLeft="@drawable/bullet_button"
+        android:text="Polytechnic"
+        android:textAlignment="gravity"
+        android:textColor="#f7f9f6"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.434" />
+
+    <TextView
+        android:id="@+id/iti"
+        android:layout_width="290dp"
+        android:layout_height="56dp"
+        android:drawableLeft="@drawable/bullet_button"
+        android:text="ITI"
+        android:textColor="#f7f9f6"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.627" />
+
+    <TextView
+        android:id="@+id/other"
+        android:layout_width="304dp"
+        android:layout_height="54dp"
+        android:drawableLeft="@drawable/bullet_button"
+        android:text="Others"
+        android:textColor="#f7f9f6"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.598"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.825" />
+
+
+</android.support.constraint.ConstraintLayout>

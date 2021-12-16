@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#101010"
+    android:theme="@android:style/Theme.NoTitleBar"
+    tools:context="com.example.anki.career_scope.field_choose">
+
+    <TextView
+        android:id="@+id/choose_field"
+        android:layout_width="337dp"
+        android:layout_height="82dp"
+        android:text="Please Select Any One :"
+        android:textColor="#7bf706"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.405"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.089" />
+
+    <TextView
+        android:id="@+id/after10"
+        android:layout_width="292dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/bullet_color"
+        android:text="After 10"
+        android:textAlignment="gravity"
+        android:textColor="#7bf706"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.274" />
+
+    <TextView
+        android:id="@+id/after12"
+        android:layout_width="292dp"
+        android:layout_height="61dp"
+        android:drawableLeft="@drawable/bullet_color"
+        android:text="After 12"
+        android:textAlignment="gravity"
+        android:textColor="#7bf706"
+        android:textSize="50dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.865"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+
+
+
+</android.support.constraint.ConstraintLayout>

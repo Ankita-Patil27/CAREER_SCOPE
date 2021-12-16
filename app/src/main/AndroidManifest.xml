@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.anki.career_scope">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon_foreground"
+        android:label="Career Scope"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".login" />
+        <activity android:name=".register" />
+        <activity android:name=".field_choose" />
+        <activity android:name=".admin" />
+        <activity android:name=".detail_10" />
+        <activity android:name=".detail_12" />
+        <activity android:name=".intermediate" />
+        <activity android:name=".polytechnic" />
+        <activity android:name=".iti" />
+        <activity android:name=".other" />
+        <activity android:name=".pcmb" />
+        <activity android:name=".pcb" />
+        <activity android:name=".pcm" />
+        <activity android:name=".commerce" />
+        <activity android:name=".arts" />
+    </application>
+
+</manifest>
